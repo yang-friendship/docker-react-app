@@ -11,7 +11,7 @@ before_script:
   - docker build -t app-test -f Dockerfile.dev .
 
 script:
-  - docker run -e CI-true app-test npm run test -- --coverage
+  - docker run -e CI=true app-test npm run test -- --coverage
 
 after_success:
   - echo "Test Success"
