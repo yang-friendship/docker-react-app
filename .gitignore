@@ -1,0 +1,5 @@
+# ignore idea setting
+/.idea
+
+# Python venv
+/venv
