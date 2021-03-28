@@ -13,6 +13,12 @@ test("test1" , () => {
 
 });
 
+test("test3", () => {
+  var num = 1;
+  var num2 = 2;
+
+})
+
 test("test2" , () => {
   var num = 1;
 
